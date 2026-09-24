@@ -32,7 +32,7 @@ Requires Neovim (>= 0.9). On first launch, lazy.nvim bootstraps itself and insta
 
 ## Theme
 
-[Catppuccin](https://github.com/catppuccin/nvim) `mocha` variant — matches the tmux Catppuccin config in `afreisinger/dotfiles`.
+[Kanagawa](https://github.com/rebelot/kanagawa.nvim) `wave` variant — matches the tmux Kanagawa config in `afreisinger/dotfiles`.
 
 ## Tmux navigation
 
