@@ -1,27 +1,17 @@
 return {
   {
-    "rebelot/kanagawa.nvim",
+    "catppuccin/nvim",
+    name = "catppuccin",
     lazy = false,
     priority = 1000,
-    config = function()
-      require("kanagawa").setup({
-        compile = false,
-        undercurl = true,
-        commentStyle = { italic = true },
-        functionStyle = {},
-        keywordStyle = { italic = true },
-        statementStyle = { bold = true },
-        typeStyle = {},
-        transparent = false,
-        dimInactive = false,
-        terminalColors = true,
-        theme = "wave",
-        background = {
-          dark = "wave",
-          light = "lotus",
-        },
-      })
-      vim.cmd.colorscheme("kanagawa")
+    opts = {
+      flavour = "mocha", -- latte, frappe, macchiato, mocha
+      transparent_background = false,
+      term_colors = true,
+    },
+    config = function(_, opts)
+      require("catppuccin").setup(opts)
+      vim.cmd.colorscheme("catppuccin")
     end,
   },
 }

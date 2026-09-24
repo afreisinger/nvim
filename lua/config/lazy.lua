@@ -38,7 +38,7 @@ require("lazy").setup({
     lazy = false,
     version = false,
   },
-  install = { colorscheme = { "kanagawa" } },
+  install = { colorscheme = { "catppuccin", "habamax" } },
   checker = { enabled = true },
   performance = {
     rtp = {
