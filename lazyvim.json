@@ -1,0 +1,7 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.coding.mini-surround",
+    "lazyvim.plugins.extras.util.mini-hipatterns"
+  ],
+  "version": 8
+}
